@@ -37,7 +37,7 @@
         },
         geolocation: {
             type:String,
-            required:true
+           
         },
         serviceorders_total: {
             type:String,
