@@ -32,8 +32,8 @@
             
         },
         status:{
-            type:Boolean,
-            required:true
+            type:String,
+            
         },
         geolocation: {
             type:String,
@@ -80,4 +80,4 @@
 
     
 // create and export model
-module.exports = mongoose.model("todoModel", SalesOrder);
+module.exports = mongoose.model("restappModel", SalesOrder);
