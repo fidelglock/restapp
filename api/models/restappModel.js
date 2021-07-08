@@ -9,71 +9,71 @@
     const SalesOrder = new Schema({
         serviceorder_id: {
             type:String,
-            required:true
+            required:false
         },
         customer_id: {
             type:String,
-            required:true
+            required:false
         },
         customer_type: {
             type:String,
-            required:true
+            required:false
         },
         transaction_type: {
             type:String,
-            required:true
+            required:false
         },
         status: {
             type:String,
-            
+            required:false
         },
         priority: {
             type:String,
-            required:true
+            required:false
         },
         status:{
             type:String,
-            required:true
+            required:false
         },
         geolocation: {
             type:String,
-            required:true
+            required:false
         },
         serviceorders_total: {
             type:String,
-            required:true
+            required:false
         },
         serviceorders_issue: {
             type:String,
-            required:true
+            required:false
         },
         serviceorders_need_action: {
             type:String,
-            required:true
+            required:false
         },
         street: {
             type:String,
-            required:true
+            required:false
         },
         city: {
             type:String,
-            required:true
+            required:false
         },
         state: {
             type:String,
-            required:true
+            required:false
         },
         zip: {
             type:String,
-            required:true
+            required:false
         },
         phone: {
             type:String,
-            required:true
+            required:false
         },
         custname: {
             type:String,
-            required:true
+            required:false
         }
     });
 
