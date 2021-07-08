@@ -6,13 +6,13 @@
 
 // todoList Routes
 
-// get and post request for /todos endpoints
+// get and post request for /restapp endpoints
         app
         .route("/restapp")
         .get(restappList.listAllRestapp)
         .post(restappList.createNewRestapp);
 
-// put and delete request for /todos endpoints
+// put and delete request for /restapp endpoints
         app
         .route("/restapp/:id")
         .put(restappList.updateRestapp)
